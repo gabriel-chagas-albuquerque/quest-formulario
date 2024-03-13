@@ -1,0 +1,27 @@
+@media(max-width:768px){
+    main{
+        flex-direction: column;
+        gap:5px;
+    }
+
+    .form{
+        margin:10px;
+    }
+
+   .info{
+    text-align: center;
+    margin-top: 20px;
+   }
+
+   .info h2{
+    font-size: 16px;
+   }
+
+   .info p{
+    font-size: 12px;
+   }
+
+   .campo-obrigatorio{
+    margin-left: 10px;
+   }
+}

@@ -6,6 +6,7 @@
     <title>Desafio Formulário</title>
     <link rel="stylesheet" href="./src/css/reset.css" />
     <link rel="stylesheet" href="./src/css/style.css" />
+    <link rel="stylesheet" href="./src/css/responsive.css">
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -23,18 +24,18 @@
       <nav>
         <ul class="form">
           <li><input type="text" class="nome items-form" placeholder="Nome Completo *" /></li>
-          <li class="campo-obrigatorio">campo obrigatório</li>
-          <li><input type="text" class="email items-form" placeholder="Email *" /></li>
-          <li class="campo-obrigatorio">campo obrigatório</li>
-          <li><input type="text" class="telefone items-form" placeholder="Telefone *"/></li>
-          <li class="campo-obrigatorio">campo obrigatório</li>
+          <li class="campo-obrigatorio mostrar">campo obrigatório</li>
+          <li><input type="email" class="email items-form" placeholder="Email *" /></li>
+          <li class="campo-obrigatorio mostrar">campo obrigatório</li>
+          <li><input type="tel" pattern="[0-9]{11}" class="telefone items-form" placeholder="Telefone *"/></li>
+          <li class="campo-obrigatorio mostrar">campo obrigatório</li>
           <li>
             <textarea class="mensagem items-form" placeholder="Mensagem *" cols="40"></textarea>  
           </li>
-          <li class="campo-obrigatorio">campo obrigatório</li>
+          <li class="campo-obrigatorio mostrar">campo obrigatório</li>
           <li class="campos-obrigatorios">*campos obrigatorios</li>
           <li class="enviar">
-        <a href="#" id="botao-enviar">Enviar</a>
+        <button type="submit"  href="#" id="botao-enviar">Enviar</button>
         </li>
         </ul>
       </nav>
